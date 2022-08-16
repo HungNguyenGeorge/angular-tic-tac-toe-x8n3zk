@@ -1,0 +1,32 @@
+button {
+  cursor: pointer;
+}
+button.reset {
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: orange;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.1s;
+}
+button.reset:hover {
+  box-shadow: 2px 2px 5px rgb(224 170 117 / 20%),
+    -2px -2px 5px rgb(255 185 110 / 80%);
+}
+button.square {
+  width: 60px;
+  height: 60px;
+  background: #1133;
+  margin: 5px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+
+  border-radius: 10px;
+  transition: all 0.1s;
+}
+
+button.square:hover:not(:disabled) {
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 20%), -2px -2px 5px rgb(87 87 94 / 80%);
+}
